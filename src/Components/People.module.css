@@ -1,0 +1,53 @@
+.sectionTitle {
+  margin-top: 40px;
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+  padding: 0 20%;
+}
+
+.itemsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10%;
+  margin-top: 40px;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+.peopleItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 50%;
+  min-height: 375px;
+  margin-bottom: 40px;
+}
+
+.description {
+  width: 50%;
+}
+
+.peopleItem button {
+  padding: 6px 20px;
+}
+
+@media (max-width: 800px) {
+  .sectionTitle {
+    font-size: 24px;
+    padding: 0 5%;
+  }
+  .peopleItem,
+  .description {
+    width: 100%;
+  }
+}
